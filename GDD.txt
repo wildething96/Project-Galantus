@@ -1,0 +1,4 @@
+Project Galantus
+    Overview
+        - A tower defence game set in planetary orbit
+        - The player defends against incoming asteroids, spaceships, solar storms and more
