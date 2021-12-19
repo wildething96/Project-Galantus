@@ -19,7 +19,17 @@
         <canvas id="stage" width="1280" height="720"></canvas>
 
         <script>
-            // JS GOES HERE
+            var canvas = document.getElementById("stage");
+            var ctx = canvas.getContext("2d");
+
+            var x = 50;
+            
+            ctx.beginPath();
+            ctx.rect(20, 40, x, 50);
+            ctx.fillStyle = '#FF0000';
+            ctx.fill();
+            ctx.closePath();
+            x++; 
         </script>
     </body>
 </html>
